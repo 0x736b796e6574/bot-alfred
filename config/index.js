@@ -5,12 +5,12 @@ var path = require('path'),
 var config = {
     development: {
         root: rootPath,
-        token: '',
+        token: 'xoxb-370454623632-371481934869-nPBAgpt2NBQslaPuJX8BpyZI',
         bot: {
-            name: '',
-            id: ''
+            name: 'Alfred',
+            id: 'UAXE5TGRK'
         },
-        simsimi_key: ''
+        simsimi_key: '84c35046-2538-4a5e-8810-1edf86326749'
     },
 
     production: {
