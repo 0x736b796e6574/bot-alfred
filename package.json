@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/0x736b796e6574/node-base#readme",
   "dependencies": {
-    "@slack/client": "^3.5.4"
+    "@slack/client": "^3.5.4",
+    "xmlhttprequest": "^1.8.0"
   }
 }

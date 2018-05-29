@@ -6,18 +6,19 @@ var config = {
     development: {
         root: rootPath,
         token: '',
-        channel_id: '',
-        app: {
-            name: 'slack-bot'
-        }
+        bot: {
+            name: '',
+            id: ''
+        },
+        simsimi_key: ''
     },
 
     production: {
         root: rootPath,
         token: '',
-        channel_id: '',
-        app: {
-            name: 'slack-bot'
+        bot: {
+            name: 'slack-bot',
+            id: ''
         }
     }
 };
