@@ -5,10 +5,10 @@ var path = require('path'),
 var config = {
     development: {
         root: rootPath,
-        token: '',
+        token: process.env.SLACK_BOT_TOKEN,
         bot: {
-            name: 'Alfred',
-            id: ''
+            name: process.env.SLACK_BOT_NAME,
+            id: process.env.SLACK_BOT_ID
         }
     },
 
